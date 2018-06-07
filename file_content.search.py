@@ -6,6 +6,9 @@ import os
 
 
 class file_content_search:
+    '''
+    搜索文件内容
+    '''
     def __init__(self, parallelism = 4 ):
         self.pool = ThreadPool(parallelism)
 
@@ -42,5 +45,3 @@ if __name__ == "__main__":
     seacher = file_content_search(4)
     results = seacher.search(r"E:\下载\bt宅5.0.4\codecs", ".ini", '[Application]')
     print(results)
-
-        
