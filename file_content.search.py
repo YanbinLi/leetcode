@@ -45,3 +45,7 @@ if __name__ == "__main__":
     seacher = file_content_search(4)
     results = seacher.search(r"E:\下载\bt宅5.0.4\codecs", ".ini", '[Application]')
     print(results)
+
+"""
+JUST FOR REST
+"""
